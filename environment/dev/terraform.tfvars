@@ -20,7 +20,7 @@ storage_details = {
       rule1 = {
         default_action = "Deny"
         bypass         = ["AzureServices"]
-        ip_rules       = ["152.59.142.117"]
+        ip_rules       = ["74.234.184.1"]
       }
     }
   }
@@ -40,7 +40,7 @@ key_vaults_details = {
     network_acls = {
       bypass                     = "AzureServices"
       default_action             = "Deny"
-      ip_rules                   = ["152.59.142.117"]
+      ip_rules                   = ["74.234.184.1"]
       virtual_network_subnet_ids = []
     }
 
